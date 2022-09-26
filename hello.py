@@ -1,13 +1,12 @@
 print("hello ,world")
-x = 10
+
 my_list = [1 , 3, 4, 5, 6]
-my_out= (filter(lambda num:num % 3  == 0, my_list)
-    print(list(my_out))
 
-def my_sub(x, y)
-    x = int(input("x: "))
-    y = int(input("y: "))
+my_out= filter(lambda num:num % 3  == 0, my_list)
+print(list(my_out))
+
+def my_sub(x, y):
     z = x + y
-    return z
+    print(z)
 
-print(my_sub)
+my_sub(4, 5)
