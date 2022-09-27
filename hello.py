@@ -10,3 +10,8 @@ def my_sub(x, y):
     print(z)
 
 my_sub(4, 5)
+
+my_sub(4, 4)
+
+if my_sub != 4:
+    print("error: ")
