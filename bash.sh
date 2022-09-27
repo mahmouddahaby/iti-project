@@ -30,4 +30,3 @@ fi
 echo "Configuring your file $file_name"
 echo "Here are the list : $list_file"
 echo "welcome to my script"
-echo "i'm done"
