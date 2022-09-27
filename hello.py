@@ -15,3 +15,6 @@ my_sub(4, 4)
 
 if my_sub != 4:
     print("error: ")
+
+my_dict = {"name": "hoda", "street": {"block number": 2}}
+print(my_dict["street"]["block number"])
